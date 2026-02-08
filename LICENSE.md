@@ -1,40 +1,43 @@
-<#
-INSETCHECKER – License Notice
+# INSETCHECKER – License Notice
 
-Copyright (c) 2026 [Inset]. All rights reserved.
+**Copyright (c) 2026 [Inset]. All rights reserved.**
 
 This software is provided for **authorized, legal, and ethical use only**.
 
-----------------------------------------------------------------------
-1. RESTRICTIONS
-----------------------------------------------------------------------
+---
 
-You MAY NOT:
+## 1. Restrictions
+
+You **MAY NOT**:
+
 - Sell, sublicense, or distribute this software in any form.
 - Modify, claim authorship, or redistribute derivative versions of the software.
 - Reverse-engineer, decompile, or bypass any built-in restrictions.
 - Use this software for unauthorized, illegal, or malicious activities.
 
-----------------------------------------------------------------------
-2. PERMITTED USE
-----------------------------------------------------------------------
+---
 
-You MAY:
+## 2. Permitted Use
+
+You **MAY**:
+
 - Run this tool locally on your own system for legitimate analysis, educational, or auditing purposes.
 - Generate reports or share findings derived from the software **without distributing the script itself**.
 - Use the software to support internal security, forensic, or investigative processes in a legal context.
 
-----------------------------------------------------------------------
-3. DISCLAIMER
-----------------------------------------------------------------------
+---
+
+## 3. Disclaimer
 
 - This software is provided **“as-is”** without any warranties of any kind.
 - The author and copyright holder are **not responsible for any direct or indirect damages**, loss of data, or misuse resulting from its use.
 - Users assume all responsibility for compliance with local laws and regulations while using this tool.
 
-----------------------------------------------------------------------
-4. ACCEPTANCE
-----------------------------------------------------------------------
+---
+
+## 4. Acceptance
 
 By downloading, executing, or interacting with this software, you acknowledge and agree to comply with all the restrictions and terms outlined above. Unauthorized use is strictly prohibited.
-#>
+
+---
+
