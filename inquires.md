@@ -1,6 +1,6 @@
 #  Inquiries & Support 
 
-For support, questions, or feedback regarding **INSETCHECKER**, you can reach out via the following channels.  
+For support, questions, or feedback regarding **PROJECTS**, you can reach out via the following channels.  
 This page is intended for **legitimate inquiries only**.
 
 ---
