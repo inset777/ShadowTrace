@@ -26,7 +26,7 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 
 ### 4. Run the Script
 ```powershell
-.\insetchecker.ps1
+.\ShadowTrace.ps1
 ```
 
 ### 5. View the Automated Reports
@@ -75,5 +75,5 @@ All rights reserved.
 # Set execution policy temporarily
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 # Run INSETCHECKER
-.\insetchecker.ps1
+.\ShadowTrace.ps1
 ```
