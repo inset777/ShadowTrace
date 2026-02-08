@@ -1,6 +1,6 @@
 # INSETCHECKER – License Notice
 
-**Copyright (c) 2026 [Inset]. All rights reserved.**
+**Copyright (c) 2026 [inset777]. All rights reserved.**
 
 This software is provided for **authorized, legal, and ethical use only**.
 
