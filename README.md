@@ -1,18 +1,67 @@
-# fivemccchecker
-INSETCHECKER is a safe, evidence-based forensic correlation tool for Windows systems. It is designed to reconstruct execution history, inventory files, and identify suspicious patterns in a fully transparent, non-invasive, and legal manner.
+# FiveMCCChecker – INSETCHECKER
 
----HOW TO USE----
+**INSETCHECKER** is a **safe, evidence-based forensic correlation tool** for Windows systems.  
+It reconstructs execution history, inventories files, and identifies suspicious patterns in a **transparent, non-invasive, and legal manner**.  
+This tool is intended for **administrative auditing and forensic analysis only**.
 
-GO TO THE MAIN DRIVE WHERE WINDOWS IS INSTALLED, THEN GO TO USERS , NAVIGATE TO Administraator Folder and put there the .ps1 file
-THEN OPEN POWERSHELL WITH ADMIN PRIVILEGES AND RUN THE FOLLOWING :
+---
+
+## How to Use
+
+### 1. Place the Script
+- Navigate to your main Windows drive (usually `C:\`).  
+- Go to `C:\Users\<Administrator>` (replace `<Administrator>` with your admin account folder).  
+- Place the `insetchecker.ps1` script in this folder.
+
+### 2. Run PowerShell as Administrator
+- Right-click **PowerShell** → **Run as Administrator**
+
+### 3. Set Execution Policy
+```powershell
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+# Press "Yes to All" when prompted
+
+### 4. Run the Script
+```powershell
+.\insetchecker.ps1
+
+###View the automaded Reports###
+   -The script automatically creates an output folder in the same location, for example:
+     INSETCHECKER_bd4b49c0-9de4-49cc-bafa-bc4b051503e6
+
+    -Inside this folder, you will find all generated reports
+
+    ###License###
+
+This product is proprietary and fully licensed to INSET.
+
+All rights reserved.
+
+You may not copy, distribute, sell, or create derivative works from this script.
+
+Use is limited to legal auditing and forensic review only.
+
+Important Notes:
+
+   -Always run as administrator for full functionality.
+
+   -The tool is non-invasive and does not modify system files or memory.
+
+   -Do not move or modify the output folder while the script is running.
+
+  ###Tips###
+
+Keep your PowerShell execution policy set to bypass temporarily only for running this tool.
+
+Review the generated reports carefully—this tool provides insights, not verdicts.
+
+The evidence heatmap helps visualize suspicious activity over time.
+
+
+###Quick Copy Commands###
 
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
-(PRESS YES TO ALL) , THEN 
+.\insetchecker.ps1
 
- .\insetchecker.ps1
 
-to review the report you can go to the same path you placed the .ps1 file and navigate to insetchecker folder it auto created
-ex. INSETCHECKER_bd4b49c0-9de4-49cc-bafa-bc4b051503e6
-
-This product is under licencse of inset and all rights are reserved to him only.
-
+Copy and paste directly into PowerShell:
