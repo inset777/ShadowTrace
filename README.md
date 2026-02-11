@@ -1,4 +1,4 @@
-# FiveMCCChecker – INSETCHECKER
+# ShadowTrace – Inset777
 
 **ShadowTrace** is a safe, evidence-based forensic correlation tool for Windows systems.  
 It reconstructs execution history, inventories files, and identifies suspicious patterns in a transparent, non-invasive, and legal manner.  
